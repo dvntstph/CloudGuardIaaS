@@ -67,7 +67,7 @@
       }
     ],
     "routesArray": "[variables('localSubnetRoute')]",
-    "nsgName": "[concat(parameters('vmName'), '-nsg')]",
+    "nsgName": "[concat('nsg-',parameters('vmName') )]",
     "nsgProperties": {
       "id": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('nsgName'))]"
     },

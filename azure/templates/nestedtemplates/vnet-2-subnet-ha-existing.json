@@ -29,7 +29,7 @@
   },
   "variables": {
     "vnetId": "[resourceId(parameters('virtualNetworkExistingRGName'),'Microsoft.Network/virtualNetworks', parameters('virtualNetworkName'))]",
-    "nsgName": "[concat(parameters('vmName'), '-nsg')]",
+    "nsgName": "[concat('nsg-',parameters('vmName') )]",
     "nsgProperties": {
       "id": "[resourceId(parameters('virtualNetworkExistingRGName'),'Microsoft.Network/networkSecurityGroups', variables('nsgName'))]"
     }

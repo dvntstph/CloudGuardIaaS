@@ -61,7 +61,7 @@
     "appHealthProtocol": "tcp",
     "ilbHealthProtocol": "tcp",
     "lbHealthPort": 8117,
-    "ilbName": "['backend-lb']",
+    "ilbName": "['lb-int-east-west-firewall-prod']",
     "ilbID": "[if(parameters('upgrading'), parameters('ilbResourceId'), resourceId('Microsoft.Network/loadBalancers', variables('ilbName')))]",
     "ilbBEAddressPool": "[concat(variables('ilbName'), '-pool')]",
     "internalLBPrivateIPAddress": "[parameters('Subnet2StartAddress')]",

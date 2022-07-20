@@ -11,6 +11,6 @@ To deploy the ARM templates manually without using the Azure Marketplace, follow
 6. Enter the desired template parameters
    - Replace the "*_artifacts Location*" property with:
       ```
-      https://raw.githubusercontent.com/CheckPointSW/CloudGuardIaaS/master/azure/templates/
+      https://raw.githubusercontent.com/dvntstph/CloudGuardIaaS/master/azure/templates/
       ```
 7. Click *Purchase* to deploy the solution
