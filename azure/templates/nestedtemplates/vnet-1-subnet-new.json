@@ -129,8 +129,8 @@
               "protocol": "*",
               "sourcePortRange": "*",
               "destinationPortRange": "*",
-              "sourceAddressPrefix": "*",
-              "destinationAddressPrefix": "*",
+              "sourceAddressPrefix": "10.0.0.0/8",
+              "destinationAddressPrefix": "10.0.0.0/8",
               "access": "Allow",
               "priority": "100",
               "direction": "Inbound"
